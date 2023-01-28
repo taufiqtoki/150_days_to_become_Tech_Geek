@@ -69,6 +69,8 @@ var fruits = ['Apple', 'Banana', 'Orange'];
 a) Find the index of ‘Banana’ and replace ‘Banana’ with ‘Mango’.
 b) Remove ‘Orange’ and add ‘Watermelon’. */
 
+/* 
+
 var fruits = ['Apple', 'Banana', 'Orange'];
 console.log("Initial Fruit Names " + fruits);
 var indexOfBanana = fruits.indexOf("Banana");
@@ -83,4 +85,40 @@ fruits.unshift("Papaya");
 console.log("After Adding another string in the begining of the array now :" + fruits);
 fruits.shift();
 console.log("After Removing a string in the begining of the array now :" + fruits);
+
+*/
+
+// another from G driv pdf
+
+/* 
+1. You are given three numbers 13, 79, and 45. Write a program that will print the
+largest number using if-else.
+
+*/
+
+
+/* 
+
+var no1 = 13;
+var no2 = 79;
+var no3 = 45;
+
+if (no1 >= no2 && no3) {
+    console.log("Largest number from given array is: "+ no1)
+}
+else if (no2 >= no1 && no3) {
+    console.log("Largest number from given array is: "+ no2)
+}
+else {
+    console.log("Largest number from given array is: "+ no3)
+}
+
+*/
+
+/* 2. You are given a triangle with the sides 9, 8, 9. Write a program to check whether a
+triangle is Isosceles or not using if-else.
+
+Isosceles => two sides are equal
+
+*/
 
