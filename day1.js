@@ -1,5 +1,7 @@
 // Today: 28-01-2023
 
+// Practice 1
+
 /* Harry’s mom gave him money and asked him to buy some oranges and apples. Write a program to
  help Harry calculate how much money the shopkeeper will return.
  Input:
@@ -13,4 +15,20 @@ var applePrice = 250;
 var orangePrice = 220;
 var totalCost = applePrice + orangePrice ;
 var remain = takaInHand - totalCost ;
-console.log("Shopkeeper will return " + remain + " taka");
+
+// console.log("Shopkeeper will return " + remain + " taka");
+
+
+// Practice 2
+
+/* Practice problem 2 
+
+Write a program to calculate the average marks of Mathematics, Biology, Chemistry, Physics, and Bangla of a student.
+Input:
+The first line of the input is the marks of the five subjects mentioned above, respectively.
+Output:
+Print the result in 2 decimal places.*/
+
+var marks = [75.25, 65, 80, 35.45, 99.50];
+var average = (marks[0] + marks[1] + marks[2] + marks[3] + marks[4]) / marks.length;
+console.log(average.toFixed(2));
