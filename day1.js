@@ -31,4 +31,21 @@ Print the result in 2 decimal places.*/
 
 var marks = [75.25, 65, 80, 35.45, 99.50];
 var average = (marks[0] + marks[1] + marks[2] + marks[3] + marks[4]) / marks.length;
-console.log(average.toFixed(2));
+
+// console.log(average.toFixed(2));
+
+
+// Practice Problem 3
+
+/* John’s teacher gave him two variables. Each variable contains a string. John’s teacher asked him to
+combine these two strings and print them in one line. Help John write the program.
+Input:
+The first and the second lines of the input contain the strings.
+Output:
+Print the result in one line. */
+
+var string1 = "Amar Shonar Bangla";
+var string2 = "\n  Ami tomay Valobashi";
+
+// console.log(string1+string2);
+
